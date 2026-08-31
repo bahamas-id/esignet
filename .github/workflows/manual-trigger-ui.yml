@@ -1,0 +1,23 @@
+name: Maven Package upon a push-ui
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build_dockers_oidc_ui:
+    strategy:
+      matrix:
+        include:
+          - SERVICE_LOCATION: 'oidc-ui'
+            SERVICE_NAME: 'oidc-ui'
+      fail-fast: false
+    name: Build Docker ${{ matrix.SERVICE_NAME }}
+    uses: mosip/kattu/.github/workflows/docker-build.yml@master
+    with:
+      SERVICE_LOCATION: ${{ matrix.SERVICE_LOCATION }}
+      SERVICE_NAME: ${{ matrix.SERVICE_NAME }}
+    secrets:
+      DEV_NAMESPACE_DOCKER_HUB: ${{ secrets.DEV_NAMESPACE_DOCKER_HUB }}
+      ACTOR_DOCKER_HUB: ${{ secrets.ACTOR_DOCKER_HUB }}
+      RELEASE_DOCKER_HUB: ${{ secrets.RELEASE_DOCKER_HUB }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
