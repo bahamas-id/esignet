@@ -25,6 +25,7 @@
     "zoneinfo": "Zone Info",
     "updated_at": "Updated at",
     "address": "Address",
+    "constituency": "Constituency",
     "email": "Email Address",
     "email_verified": "Email Address",
     "phone": "Phone",
