@@ -148,7 +148,8 @@
     "wallet_header": "Scan the QR code with {{walletName}} app"
   },
   "otp": {
-    "sign_in_with_otp": "Login with OTP",
+    "passport": "Passport",
+    "sign_in_with_otp": "Login with Passport",
     "resend_otp": "Resend OTP",
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
@@ -180,6 +181,7 @@
     "and": "and"
   },
   "signInOption": {
+    "passport": "Passport",
     "login_option_heading": "Choose How You Want to Login:",
     "login_with_id": "Login with {{option}}",
     "verify_with_id": "Verify with {{option}}",
@@ -297,25 +299,16 @@
     "popup_body": "{{clientName}} requires access in order to proceed further, do you still wish to discontinue?",
     "consent_details_rejected": "We’re sorry! Your login was unsuccessful as consent was not shared."
   },
-  "loginOptions": {
+ "loginOptions": {
     "buttons": {
-      "mobile": "Mobile Number",
-      "nrc": "NRC ID",
-      "vid": "UIN/VID",
-      "email": "Email"
+      "passport": "Passport"
     },
     "input": {
       "label": {
-        "mobile": "Mobile Number",
-        "nrc": "NRC ID",
-        "vid": "UIN/VID",
-        "email": "Email"
+        "passport": "Passport"
       },
       "placeholder": {
-        "mobile": "Enter Mobile Number",
-        "nrc": "Enter NRC ID",
-        "vid": "Enter UIN/VID",
-        "email": "Enter Email ID"
+        "npi": "Enter Passport No"
       }
     }
   },
