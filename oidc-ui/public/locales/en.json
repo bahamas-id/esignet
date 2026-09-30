@@ -148,8 +148,7 @@
     "wallet_header": "Scan the QR code with {{walletName}} app"
   },
   "otp": {
-    "passport": "Passport",
-    "sign_in_with_otp": "Login with Passport",
+    "sign_in_with_otp": "Login with OTP",
     "resend_otp": "Resend OTP",
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
@@ -181,7 +180,6 @@
     "and": "and"
   },
   "signInOption": {
-    "passport": "Passport",
     "login_option_heading": "Choose How You Want to Login:",
     "login_with_id": "Login with {{option}}",
     "verify_with_id": "Verify with {{option}}",
@@ -305,7 +303,7 @@
       "nrc": "NRC ID",
       "vid": "UIN/VID",
       "email": "Email",
-      "passport": "Passport"
+      "passportnumber": "PASSPORT"
     },
     "input": {
       "label": {
@@ -313,14 +311,14 @@
         "nrc": "NRC ID",
         "vid": "UIN/VID",
         "email": "Email",
-        "passport": "Passport"
+        "passportnumber": "PASSPORT"
       },
       "placeholder": {
         "mobile": "Enter Mobile Number",
         "nrc": "Enter NRC ID",
         "vid": "Enter UIN/VID",
         "email": "Enter Email ID",
-        "passport": "Enter Passport No"
+        "passportnumber": "Enter Passport No"
       }
     }
   },
