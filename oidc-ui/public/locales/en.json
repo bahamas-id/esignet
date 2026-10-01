@@ -303,7 +303,7 @@
       "nrc": "NRC ID",
       "vid": "UIN/VID",
       "email": "Email",
-      "passportnumber": "PASSPORT"
+      "nationalinsuranceboard": "NIB NUMBER"
     },
     "input": {
       "label": {
@@ -311,14 +311,14 @@
         "nrc": "NRC ID",
         "vid": "UIN/VID",
         "email": "Email",
-        "passportnumber": "PASSPORT"
+        "nationalinsuranceboard": "NIB NUMBER"
       },
       "placeholder": {
         "mobile": "Enter Mobile Number",
         "nrc": "Enter NRC ID",
         "vid": "Enter UIN/VID",
         "email": "Enter Email ID",
-        "passportnumber": "Enter Passport No"
+        "nationalinsuranceboard": "Enter NIB Number"
       }
     }
   },
